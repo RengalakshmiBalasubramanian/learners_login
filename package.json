@@ -1,0 +1,28 @@
+{
+  "name": "learners_login",
+  "version": "1.0.0",
+  "description": "CRUD_Appl_Node_JS_MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RengalakshmiBalasubramanian/learners_login.git"
+  },
+  "author": "lakshmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RengalakshmiBalasubramanian/learners_login/issues"
+  },
+  "homepage": "https://github.com/RengalakshmiBalasubramanian/learners_login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "nodeman": "^1.1.2"
+  }
+}
