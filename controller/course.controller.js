@@ -1,12 +1,13 @@
 const CourseModel = require('../model/course.model')
 
 const create = (req,res,next) => {
-    const {fname, lname, email, course, courseid, description} = req.body
+    const {fname, lname, email, password, course, courseid, description} = req.body
 
     CourseModel.create({
         fname, 
         lname, 
         email, 
+        password, 
         course,
         courseid,
         description
